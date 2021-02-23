@@ -102,6 +102,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-3);
 }
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -126,7 +127,16 @@ p {
   }
 }
 /*  global classes */
-
+.nameTitle {
+  font-size: 45px;
+}
+.typed-cursor {
+  font-size: 45px;
+  opacity: 0;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
