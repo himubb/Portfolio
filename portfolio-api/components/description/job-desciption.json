@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_description_job_desciptions",
+  "info": {
+    "name": "job_desciption",
+    "icon": "diagnoses",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
