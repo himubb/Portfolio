@@ -6,6 +6,7 @@ import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
+import Skills from "../components/Skills"
 
 export const query = graphql`
   {
@@ -62,6 +63,7 @@ export default ({ data }) => {
     <Layout>
       <Hero />
       <Services />
+      <Skills />
       <Jobs />
       <Projects projects={projects} title="featured projects" showLink />
       <Blogs blogs={blogs} title="Latest posts" showLink />
