@@ -7,7 +7,6 @@ const Services = () => {
       <Title title="About Me"></Title>
       <div className="section-center services-center">
         {services.map(service => {
-          console.log(service)
           const { id, icon, title, text } = service
 
           return (
